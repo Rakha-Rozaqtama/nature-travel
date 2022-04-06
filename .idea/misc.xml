@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/22-03-22_Turning_Point/Android/Portofolio/Portofolio_Catchy_Travel_App/app/src/main/res/drawable/bg_edit_text_sign_in.xml" value="0.1295" />
+        <entry key="..\:/22-03-22_Turning_Point/Android/Portofolio/Portofolio_Catchy_Travel_App/app/src/main/res/drawable/btn_auto_sign_in.xml" value="0.1295" />
         <entry key="..\:/22-03-22_Turning_Point/Android/Portofolio/Portofolio_Catchy_Travel_App/app/src/main/res/drawable/btn_sign_in.xml" value="0.1" />
         <entry key="..\:/22-03-22_Turning_Point/Android/Portofolio/Portofolio_Catchy_Travel_App/app/src/main/res/drawable/profiler_header.xml" value="0.1" />
         <entry key="..\:/22-03-22_Turning_Point/Android/Portofolio/Portofolio_Catchy_Travel_App/app/src/main/res/font/font.xml" value="0.1984375" />
         <entry key="..\:/22-03-22_Turning_Point/Android/Portofolio/Portofolio_Catchy_Travel_App/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/22-03-22_Turning_Point/Android/Portofolio/Portofolio_Catchy_Travel_App/app/src/main/res/layout/activity_profiler.xml" value="0.264" />
-        <entry key="..\:/22-03-22_Turning_Point/Android/Portofolio/Portofolio_Catchy_Travel_App/app/src/main/res/layout/activity_splash_screen.xml" value="0.12605042016806722" />
+        <entry key="..\:/22-03-22_Turning_Point/Android/Portofolio/Portofolio_Catchy_Travel_App/app/src/main/res/layout/activity_profiler.xml" value="0.1" />
+        <entry key="..\:/22-03-22_Turning_Point/Android/Portofolio/Portofolio_Catchy_Travel_App/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
       </map>
     </option>
   </component>

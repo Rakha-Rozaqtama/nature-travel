@@ -7,4 +7,10 @@
     <string name="txt_btn_sign_in_google">Sign in with Google</string>
     <string name="txt_btn_sign_in_facebook">Sign in with Facebook</string>
     <string name="txt_divider_profiler">OR</string>
+    <string name="txt_header_manual_sign_in">Manual Sign In</string>
+    <string name="txt_place_holder_email_sign_in">Email</string>
+    <string name="txt_place_holder_password_sign_in">Password</string>
+    <string name="txt_place_holder_show_password_sign_in">Show password</string>
+    <string name="txt_btn_sign_in">Sign In</string>
+    <string name="txt_copy_right">copyright 2022 by Rakha Rozaqtama</string>
 </resources>
