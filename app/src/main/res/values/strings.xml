@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Portofolio_Catchy_Travel_App</string>
+    <string name="txt_splash_screen">Nature Travel</string>
+    <string name="txt_header_profiler">Who are you?</string>
+    <string name="txt_desc_profiler">Let us know who you are, so we can adjust the best travel recommendation for you!</string>
+    <string name="txt_ever_sign_in_before">Have you ever sign in before?</string>
+    <string name="txt_btn_sign_in_google">Sign in with Google</string>
+    <string name="txt_btn_sign_in_facebook">Sign in with Facebook</string>
+    <string name="txt_divider_profiler">OR</string>
+</resources>
