@@ -1,12 +1,13 @@
 package com.example.portofolio_catchy_travel_app
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.InputType
-import android.widget.Button
-import android.widget.CheckBox
-import android.widget.EditText
-import android.widget.TextView
+import android.text.method.HideReturnsTransformationMethod
+import android.text.method.PasswordTransformationMethod
+import android.util.Log
+import android.widget.*
 import androidx.core.content.res.ResourcesCompat
 
 class ProfilerActivity : AppCompatActivity() {
@@ -55,16 +56,34 @@ class ProfilerActivity : AppCompatActivity() {
         btnSignIn.typeface = ResourcesCompat.getFont(this, R.font.ubuntu_regular)
         txtCopyright.typeface = ResourcesCompat.getFont(this, R.font.ubuntu_regular)
 
-        showPass.setOnClickListener {
-            togglePassword();
+
+        showPass.setOnCheckedChangeListener { _, b ->
+            if(b){
+                inputPassword.transformationMethod = HideReturnsTransformationMethod.getInstance()
+            }else{
+                inputPassword.transformationMethod = PasswordTransformationMethod.getInstance()
+            }
+        }
+        btnSignIn.setOnClickListener {
+            signIn()
         }
     }
 
-    private fun togglePassword(){
-        if(showPass.isChecked){
-            inputPassword.inputType = InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD
+    private fun signIn(){
+        if(inputEmail.text.isNotEmpty() && inputPassword.text.isNotEmpty()){
+            if(inputPassword.text.length > 8){
+                val intentAccSignIn = Intent(this, MainActivity::class.java)
+                startActivity(intentAccSignIn)
+                finish()
+            }else{
+                Toast.makeText(this, "Password must be more than 8 characters!", Toast.LENGTH_SHORT).show()
+            }
         }else{
-            inputPassword.inputType = InputType.TYPE_TEXT_VARIATION_PASSWORD
+            if(inputEmail.text.isEmpty()){
+                Toast.makeText(this, "Please fill email field, before continue to sign in!", Toast.LENGTH_SHORT).show()
+            }else{
+                Toast.makeText(this, "Please fill password field, before continue to sign in!", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 }
